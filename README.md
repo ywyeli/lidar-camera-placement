@@ -1,5 +1,5 @@
 # Camera LiDAR Configuration for 3D Detection
-This is the official code for paper "Influence of Camera-LiDAR Configuration on 3D Object Detection for Autonomous Driving". (https://arxiv.org/abs/2310.05245)
+This is the official code for ICRA 2024 "Influence of Camera-LiDAR Configuration on 3D Object Detection for Autonomous Driving". (https://arxiv.org/abs/2310.05245)
 
 
 ## Preparation
