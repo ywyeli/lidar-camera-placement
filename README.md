@@ -29,7 +29,7 @@ Copy the folder `./NuScenes_generate/maps`, `./NuScenes_generate/v1.0-trainval` 
 
 ## Unified Surrogate Metric
 
-The 3d bounding boxes of all 3d objects can be accessed at `./S_MS/routes`. Run the following code to calculate Unified Surrogate Metric (s-MS).
+The 3d bounding boxes of all 3d objects can be accessed at `./S_MS/routes`. Run the following code to calculate Unified Surrogate Metric (S-MS).
 
 `python ./S_MS/create_camera_angle.py`
 
