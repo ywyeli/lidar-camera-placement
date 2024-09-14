@@ -5,7 +5,7 @@ This is the official code for ICRA 2024 "Influence of Camera-LiDAR Configuration
 ## Preparation
 Download [CARLA v0.9.10](https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.10.tar.gz) and unzip it under `./carla`. Follow the install instruction of `scenario_runner` of commit [ad71a2c](https://github.com/carla-simulator/scenario_runner/tree/ad71a2c7ed012d735be2b1158fca51b0761ff26b).
 
-We test our repo with on Ubuntu 18.04 or 20.04.
+We test our repo on Ubuntu 18.04 and 20.04.
 
 ## Data Collection
 
@@ -36,6 +36,20 @@ The 3d bounding boxes of all 3d objects can be accessed at `./S_MS/routes`. Run 
 `python ./S_MS/evaluate_camera_position.py`
 
 `python ./S_MS/evaluate_lidar_position.py`
+
+## Citation
+If you find this work helpful for your research, please kindly consider citing our papers:
+
+```bibtex
+@inproceedings{li2024influence,
+  title={Influence of Camera-LiDAR configuration on 3D object detection for autonomous driving},
+  author={Li, Ye and Hu, Hanjiang and Liu, Zuxin and Xu, Xiaohao and Huang, Xiaonan and Zhao, Ding},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={9018--9025},
+  year={2024},
+  organization={IEEE}
+}
+```
 
 ### Reference
 > - [Multi-LiDAR-Placement-for-3D-Detection](https://github.com/HanjiangHu/Multi-LiDAR-Placement-for-3D-Detection)
